@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Taqani</string>
+
+
+    <string name="locationtxt1">مرحبا نحن سعداْ لرؤيتك</string>
+    <string name="locationtxt2">اختر موقعك لبدء العثور على الفنيين الريبين من حولك</string>
+    <string name="getLocationbtn">إستخدام الموقع الحالي</string>
+    <string name="getLocationbtn2">حدد موقعك</string>
+
+
+    <string name="google_maps_api_key">AIzaSyCBY5Knsy0p2iJB0PCJkvKoKCxZrTXH598 </string>
+
 </resources>

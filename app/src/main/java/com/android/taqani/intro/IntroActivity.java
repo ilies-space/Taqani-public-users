@@ -1,4 +1,4 @@
-package com.android.taqani;
+package com.android.taqani.intro;
 
 
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.animation.Animation;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.android.taqani.UserLocation.GetUsersLocation_screen;
+import com.android.taqani.R;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -53,11 +53,10 @@ public class IntroActivity extends AppCompatActivity {
 
         }
         */
-        setContentView(R.layout.activity_intro);
+        setContentView(R.layout.intro_activity_intro);
 
         // hide the action bar
 
-        getSupportActionBar().hide();
 
         // ini views
         btnNext = findViewById(R.id.btn_next);
@@ -153,7 +152,7 @@ public class IntroActivity extends AppCompatActivity {
 
                 //open main activity
 
-                Intent mainActivity = new Intent(getApplicationContext(),MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(), GetUsersLocation_screen.class);
                 startActivity(mainActivity);
                 // also we need to save a boolean value to storage so next time when the user run the app
                 // we could know that he is already checked the intro screen activity

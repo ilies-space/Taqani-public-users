@@ -1,4 +1,4 @@
-package com.android.taqani;
+package com.android.taqani.intro;
 
 public class ScreenItem {
 

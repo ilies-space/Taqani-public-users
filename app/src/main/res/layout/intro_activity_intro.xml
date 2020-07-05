@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/introbg"
 
-    tools:context=".IntroActivity">
+    tools:context=".intro.IntroActivity">
 
 
     <androidx.viewpager.widget.ViewPager
@@ -45,6 +45,7 @@
         app:tabBackground="@drawable/indicator_selector" />
 
     <Button
+        android:textSize="20sp"
         android:id="@+id/btn_get_started"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
