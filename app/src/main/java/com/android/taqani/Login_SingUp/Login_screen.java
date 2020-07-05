@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.taqani.MainActivity;
+import com.android.taqani.MainScreen;
 import com.android.taqani.R;
 
 public class Login_screen extends AppCompatActivity {
@@ -27,7 +27,7 @@ public class Login_screen extends AppCompatActivity {
 
     public void login(View view) {
 
-        Intent myIntent = new Intent(this, MainActivity.class);
+        Intent myIntent = new Intent(this, MainScreen.class);
         this.startActivity(myIntent);
     }
 }

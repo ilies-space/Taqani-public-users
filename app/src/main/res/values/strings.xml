@@ -9,5 +9,28 @@
 
 
     <string name="google_maps_api_key">AIzaSyCBY5Knsy0p2iJB0PCJkvKoKCxZrTXH598 </string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="item_1">الرئيسية</string>
+    <string name="item_2">الفنيين</string>
+    <string name="item_3">الرسائل</string>
+    <string name="item_4">الأسئلة الشائعة</string>
+    <string name="item_5">حول</string>
+    <string name="item_6">تواصل معنا</string>
+    <string name="item_7">الاعدادات</string>
+    <string name="item_8">تسجيل الخروج</string>
+    <string name="title_home">طلباتي</string>
+    <string name="title_dashboard">الحساب الشخصي</string>
+    <string name="title_notifications">الإشعارات</string>
+    <string name="title_liked">المفضلة</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

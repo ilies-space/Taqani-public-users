@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:background="@color/gradient_end_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/drawerimg" />
+
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سعد الغامدي" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="سعد الغامدي" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textView"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="الإسم" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <LinearLayout
+
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="sad@gmail.com"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="160dp"
+                android:id="@+id/textView"
+                android:layout_height="wrap_content"
+                android:text="الايميل" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <LinearLayout
+
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="دكر"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_width="160dp"
+                android:id="@+id/textView"
+                android:layout_height="wrap_content"
+                android:text="الجنس" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <LinearLayout
+
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="20 أبريل 2020"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textView"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="تاريخ الميلاد" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <LinearLayout
+
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="012015105"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textView"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="رقم الموبايل" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
