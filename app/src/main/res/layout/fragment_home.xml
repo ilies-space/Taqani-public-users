@@ -5,10 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
     tools:context=".ui.home.HomeFragment"
+    android:background="@android:color/white"
+
     android:orientation="vertical">
 
 
     <com.google.android.material.tabs.TabLayout
+        android:padding="10dp"
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -60,25 +60,25 @@
 
 
         <TextView
-            android:autoSizeMinTextSize="13sp"
-            android:layout_weight="1"
-            android:autoSizeTextType="uniform"
+            android:textSize="11dp"
             android:textStyle="bold"
             android:layout_margin="3dp"
             android:id="@+id/remarman_nameTv"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="محمد أحمد" />
 
-        <TextView
-            android:layout_weight="1"
-            android:autoSizeTextType="uniform"
-            android:layout_margin="3dp"
 
-            android:id="@+id/remarman_jobTv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="فني موبايل" />
+                <TextView
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:layout_margin="3dp"
+                    android:id="@+id/remarman_jobTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="فني موبايل" />
+
+
 
         </LinearLayout>
         </LinearLayout>
@@ -91,13 +91,13 @@
             android:scaleX="-1"
             android:id="@+id/ratingImage"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="20dp"
             app:srcCompat="@drawable/rating3" />
 
         <LinearLayout
             android:layout_weight="1"
 
-            android:layout_margin="3dp"
+            android:layout_margin="0dp"
             android:gravity="right|center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -105,7 +105,7 @@
 
 
             <TextView
-                android:textSize="16sp"
+                android:textSize="13dp"
 
                 android:id="@+id/remarman_locationTv"
 
@@ -115,8 +115,8 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="26dp"
-                android:layout_height="26dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
                 app:srcCompat="@drawable/location"
                 android:tint="@android:color/black"/>
 

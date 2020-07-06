@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -19,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.taqani.R;
+import com.android.taqani.fani.faniDetails;
 import com.android.taqani.model.RepairmanModel;
 import com.android.taqani.ui.notifications.NotificationsViewModel;
 
@@ -96,6 +98,8 @@ public class liked extends Fragment {
 
                 RepairmanModel repairmanModel = new RepairmanModel(profileImage[i],namesList[i],joblist[i],evaluation[i],distances[i]);
                 //SecondActivity(repairmanModel);
+                FragmentManager manager = getActivity().getSupportFragmentManager();
+                manager.beginTransaction().replace(R.id.nav_host_fragment, new faniDetails()).commit();
 
 
             }

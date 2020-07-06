@@ -18,8 +18,10 @@
 
 
     <item
-        android:id="@+id/emty"
-        android:title="" />
+        android:id="@+id/navigation_addorder"
+        android:icon="@drawable/pluscircle"
+        android:iconTint="@color/yellow_main"
+        android:title="انشاء طلب"        />
 
 
 

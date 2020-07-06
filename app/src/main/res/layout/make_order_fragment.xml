@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dcdde1"
+    tools:context=".order.makeOrderFragment" >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:gravity="center_vertical"
+        android:text="لإنشاء طلب الرجاء تعبئة الحقول التالية"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        tools:ignore="HardcodedText" />
+
+
+    <LinearLayout
+        android:padding="10sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Spinner
+
+            android:background="@null"
+            android:layout_margin="5dp"
+            android:id="@+id/spinner0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:autoSizeTextType="uniform"
+            tools:ignore="NestedWeights"
+            tools:targetApi="o" />
+
+        <View
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Spinner
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:autoSizeTextType="uniform"
+            tools:targetApi="o" />
+
+        <View
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <Spinner
+            android:layout_margin="5dp"
+            android:background="@null"
+
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:autoSizeTextType="uniform" />
+
+        <View
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <EditText
+            android:autoSizeTextType="uniform"
+
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="ملاحظات"
+            tools:ignore="Autofill,TextFields" />
+
+        <View
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="حدد موقع الخدمة و دلك بالنقر على الخريطة"
+        />
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="12dp">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/roundedbtn"
+            android:padding="5dp"
+            android:text="أنقر لإضافة صورة"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="20sp"
+            android:background="@color/gradient_end_color"
+            android:padding="5dp"
+            android:text="تقديم الطلب"
+            android:textColor="@color/yellow_main"
+            android:textSize="26sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</LinearLayout>

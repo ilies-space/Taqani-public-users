@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
+    android:background="@android:color/white"
     android:layout_height="match_parent">
 
 
@@ -19,10 +20,11 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <RelativeLayout
+        android:background="@android:color/transparent"
+        android:gravity="bottom"
         android:id="@+id/frameLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -30,24 +32,26 @@
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:background="@android:color/white"
+            android:paddingTop="15dp"
             android:id="@+id/nav_view"
             android:layout_width="match_parent"
-            android:layout_height="84dp"
+            android:layout_height="75dp"
             android:layout_gravity="center"
             android:layout_marginStart="0dp"
             android:layout_marginEnd="0dp"
-            android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav_menu">
 
             <Button
+                android:visibility="gone"
+                android:id="@+id/addOrder"
+                android:layout_marginBottom="5dp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/pluscircle"
                 android:backgroundTint="@color/yellow_main"
-                android:gravity="center"
-                android:onClick="add" />
+                android:gravity="center" />
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
 

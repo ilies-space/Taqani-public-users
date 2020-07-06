@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:color/white"
+
     tools:context=".ui.dashboard.DashboardFragment">
 
 
@@ -52,7 +54,7 @@
             <TextView
                 android:layout_weight="1"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:gravity="right"
                 android:id="@+id/textView"
@@ -63,7 +65,7 @@
 
             <TextView
                 android:textColor="@android:color/black"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:id="@+id/textView"
                 android:layout_width="160dp"
@@ -96,13 +98,13 @@
                 android:gravity="right"
                 android:text="sad@gmail.com"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:textColor="@android:color/black"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_width="160dp"
                 android:id="@+id/textView"
@@ -135,13 +137,13 @@
                 android:gravity="right"
                 android:text="دكر"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:textColor="@android:color/black"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_width="160dp"
                 android:id="@+id/textView"
@@ -174,13 +176,13 @@
                 android:gravity="right"
                 android:text="20 أبريل 2020"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:textColor="@android:color/black"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:id="@+id/textView"
                 android:layout_width="160dp"
@@ -213,13 +215,13 @@
                 android:gravity="right"
                 android:text="012015105"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
 
             <TextView
                 android:textColor="@android:color/black"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold"
                 android:id="@+id/textView"
                 android:layout_width="160dp"

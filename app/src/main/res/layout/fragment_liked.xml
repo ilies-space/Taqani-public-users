@@ -4,10 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context=".ui.liked.liked">
 
 
     <GridView
+        android:layout_marginTop="20dp"
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -30,4 +30,11 @@
         android:label="@string/title_liked"
         tools:layout="@layout/fragment_liked" />
 
+
+    <fragment
+        android:id="@+id/navigation_addorder"
+        android:name="com.android.taqani.order.makeOrderFragment"
+        android:label="إنشاء طلب"
+        tools:layout="@layout/make_order_fragment" />
+
 </navigation>

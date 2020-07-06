@@ -38,7 +38,6 @@ public class HomeFragment extends Fragment {
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-
         final ViewPager viewPager =(ViewPager) root.findViewById(R.id.view_pager);
 
         TabsAdapter tabsAdapter = new TabsAdapter(getFragmentManager(), tabLayout.getTabCount());
